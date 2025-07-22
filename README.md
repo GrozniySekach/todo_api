@@ -61,7 +61,6 @@ PUT {{baseUrl}}/api/profiles/{{profile_id}}
 #### Проекты
 ```http
 POST {{baseUrl}}/api/projects
-PUT {{baseUrl}}/api/profiles/{{profile_id}}
 ```
 
 #### Задачи
