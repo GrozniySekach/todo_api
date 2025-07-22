@@ -90,7 +90,7 @@ POST /api/tasks
 - Eloquent ORM
 
 ## 📦 Postman Коллекция
-Все запросы доступны в [Postman Collection](./TodoAPI.postman_collection.json):
+Все запросы доступны в [Postman Collection](https://github.com/GrozniySekach/todo_api/blob/main/TodoAPI.postman_collection.json):
 - Авторизация
 - Управление задачами с фильтрами
 - Примеры тестовых данных
