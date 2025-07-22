@@ -67,7 +67,7 @@ PUT {{baseUrl}}/api/profiles/{{profile_id}}
 #### Задачи
 ```http
 POST {{baseUrl}}/api/tasks
-GET /api/tasks?search=test&tags=urgent&project_id=1 # Поиск по названию и другая фильтрация
+GET {{baseUrl}}/api/tasks?search={{task_title}}&tags=urgent&project_id={{project_id}} # Поиск по названию и другая фильтрация
 POST {{baseUrl}}/api/tasks/{{task_id}}/share
 DELETE {{baseUrl}}/api/tasks/{{task_id}} # Мягкое удаление
 POST {{baseUrl}}/api/tasks/{{task_id}}/restore # Восстановление
